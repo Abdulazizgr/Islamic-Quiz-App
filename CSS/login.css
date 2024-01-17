@@ -1,0 +1,119 @@
+*{
+   
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/gr-stocks-YNJmz4O9py4-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(15px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+
+  h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
+
+
+  .input-box input::placeholder{
+    color: #fff;
+  }
+
+
+ .Remember-me {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+
+  .Remember-me label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  
+  }
+
+  .Remember-me a{
+    color: hsl(194, 74%, 75%);
+    text-decoration: none;
+  
+  }
+
+
+  .main .Login-button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+
+  .main .register-link {
+    font-size: 13.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  
+  }
+
+
+  .register-link p a{
+    color:hsl(195, 89%, 45%);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  #eee {
+    text-decoration: none;
+  }
+
+  .Remember-me a:hover{
+    text-decoration: underline;
+  }
+
+
+  .register-link p a:hover{
+    text-decoration: underline;
+    color: rgb(13, 231, 148);
+  }
